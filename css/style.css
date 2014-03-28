@@ -1,5 +1,4 @@
 @import "../css/reset.css";
-@import "../css/skeleton.css";
 @import "../css/superfish.css";
 @import "../css/flexslider.css";
 @import "../css/style1.css";
@@ -68,6 +67,13 @@ a:hover{
 .p_fix{position: fixed;}
 .clear {clear:both;width:100%;line-height:0;font-size:0;}
 .wrapper {overflow:hidden}
+.clearfix:after{
+  width: 100%;
+  content: "";
+  height: 0;
+  clear: both;
+  display: block;
+}
 .f_elem *:first-child{margin-top: 0 !important;}
 .f_elem1 *:first-child{margin-top: 0 !important;border: none !important;}
 
