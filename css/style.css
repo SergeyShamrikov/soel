@@ -85,9 +85,11 @@ a:hover{
 /*======================> Header <======================*/
 
 header {
-  padding-top: 20px;
+  padding: 20px 0 10px 0;
 }
-h1.logo{}
+h1.logo{
+  margin-left: -24px; 
+}
 h1.logo a{
   display:block;
   width:270px;
@@ -175,7 +177,7 @@ h1.logo a{
   font-size: 14px;
 }  
 .sf-menu_item:first-child{
-  margin-left: 24px;
+  margin-left: 0;
 }  
 .sf-menu_item a{
   color: #000;
@@ -184,7 +186,7 @@ h1.logo a{
   padding: 8px 0;
 }
 .sf-menu_item:hover a{
-  text-decoration: underline;
+  color: #0069b4;
 }
 .search{
   height: 28px;
@@ -428,15 +430,21 @@ footer h5{
   color: #b4b4b4; 
   font-weight: 100;
 }
+.col3{
+  margin-left: 10px;
+}
+.col4{
+  margin-left: 5px;
+}
 .footer_list1, .footer_list2, .footer_list3, .footer_list4, .footer_list5{
   float: left;
   line-height: 17px;
 }
-.footer_list1{margin-right: 25px}
-.footer_list2{margin-right: 30px}
-.footer_list3{margin: 25px 35px 0 0}
-.footer_list4{margin-right: 33px}
-.footer_title1, .footer_title2, .footer_title3{
+.footer_list1{margin-right: 25px;}
+.footer_list2{margin-right: 30px;}
+.footer_list3{margin-right: 25px;}
+.footer_list4{margin-right: 33px;}
+.footer_title1, .footer_title2, .footer_title3, .footer_title4{
   margin: 0 0 8px 0; 
 }
 .footer_list4_item{
@@ -445,15 +453,12 @@ footer h5{
 .footer_list4_item:first-child{
   margin-top: 0;
 }
-.footer_right{
-  margin-right: 24px;
-}
 .footer_right_p1{
   margin-bottom: 3px;
   color: #868686;
 }
 .footer_right_p2{
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   color: #868686;
 }
 .footer_right_p3{
@@ -466,7 +471,7 @@ footer h5{
   margin-left: 1px;
 }
 .footer_links{
-  margin-top: 25px;
+  margin-top: 26px;
 }
 .footer_link_mail, .footer_link_hot, .footer_link_img{
   float: left;
@@ -483,7 +488,7 @@ footer h5{
 .footer_link_hot:hover{
   border: 1px solid #b4b4b4;
 }
-.copirate{
+.copyright{
   margin-top: 36px;
   color: #868686;
   font-weight: bold;
