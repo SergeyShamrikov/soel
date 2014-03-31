@@ -12,68 +12,7 @@
 </head>
 <body>
 <!--==============================header=================================-->
-   	<header>
-      <div class="main">
-        <div class="clearfix">
-          <div class="head_left f_left"> 
-            <h1 class="logo f_left">
-              <a href="index.html">
-                Cовременная электроника
-              </a>
-            </h1>
-            <div class="header_magazine">
-              <p class="header_magazine_text helios">журнал<br> для специалистов</p>
-            </div>
-          </div>
-          <div class="header_right f_right">
-            <div class="flag">
-              <a href="#"><img src="images/engl_flag.png" alt=""></a>
-            </div>
-            <div class="header_links">
-              <a href="#" class="input">Вход</a> 
-              <a href="#" class="registration">Регистрация</a> 
-              <a href="#" class="basket">
-                <img src="images/input.png" alt="">
-                <span class="basket_item">3</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        
-              <nav class="clearfix">
-          <ul class="sf-menu">
-            <li class="sf-menu_item">
-              <a href="index.html">ЖУРНАЛ</a>
-            </li>
-            <li class="sf-menu_item">
-              <a href="index-1.html">РУБРИКАТОР</a>
-            </li>
-            <li class="sf-menu_item">
-              <a href="index-2.html">ПОДШИВКА</a>
-            </li>
-            <li class="sf-menu_item">
-              <a href="index-3.html">НОВОСТИ</a>
-            </li>
-            <li class="sf-menu_item">
-              <a href="index-4.html">CОБЫТИЯ</a>
-            </li>
-            <li class="sf-menu_item">
-              <a href="index-5.html">ФОРУМ</a>
-            </li>
-            <li class="sf-menu_item">
-              <a href="index-6.html">МАГАЗИН</a>
-            </li>
-            <li class="sf-menu_item">
-              <a href="index-7.html">КОНТАКТЫ</a>
-            </li>
-          </ul>
-          <form class="search" action="#">
-            <input type="text" name="search" value="Поиск по сайту" onblur="if(this.value=='') this.value='Поиск по сайту'" onfocus="if(this.value =='Поиск по сайту' ) this.value=''"><button></button>
-          </form>
-          <div class="clear"></div>
-        </nav>
-      </div>
-    </header>
+   <?php include("main_blocks/header.php") ?>
 <!--==============================content================================-->
     <div class="flexslider wrapper">
       <ul class="slides">
@@ -106,7 +45,7 @@
                 <a href="#" class="button animation_class animation_active app_left opacity tr5">Читать статью</a>
               </article>
               <aside role="complementary" class="f_left">
-                <h4 class="title2 animation_class animation_active app_left opacity tr6"><i class="rubrics"></i>Рубрики номера</h4>  
+                <h4 class="title2 animation_class animation_active app_left opacity tr2"><i class="rubrics"></i>Рубрики номера</h4>  
                 <ul class="list2">
                   <li class="list2_it animation_class animation_active app_right opacity tr7">Вопросы теории</li>
                   <li class="list2_it animation_class animation_active app_right opacity tr8">Рынок</li>
@@ -149,7 +88,7 @@
                 <a href="#" class="button animation_class animation_active app_left opacity tr5">Читать статью</a>
               </article>
               <aside role="complementary" class="f_left">
-                <h4 class="title2 animation_class animation_active app_left opacity tr6"><i class="rubrics"></i>Рубрики номера</h4>  
+                <h4 class="title2 animation_class animation_active app_left opacity tr2"><i class="rubrics"></i>Рубрики номера</h4>  
                 <ul class="list2">
                   <li class="list2_it animation_class animation_active app_right opacity tr7">Вопросы теории</li>
                   <li class="list2_it animation_class animation_active app_right opacity tr8">Рынок</li>
@@ -387,137 +326,7 @@
       </div>
     </section>
 <!--==============================footer=================================-->
-    <footer class="clearfix">
-      <div class="main">
-        <div class="wrapper">
-          <div class="footer_left f_left clearfix">
-            <div class="footer_list wrapper">
-              <div class="col1 f_left">
-                <h5 class="footer_title1">Журнал</h5>
-                <ul class="footer_list1">
-                  <li class="footer_list1_item">
-                    <a href="#">О журнале</a>
-                  </li>
-                  <li class="footer_list1_item">
-                    <a href="#">Авторам</a>
-                  </li>
-                  <li class="footer_list1_item">
-                    <a href="#">Рекламодателям</a>
-                  </li>
-                  <li class="footer_list1_item">
-                    <a href="#">Партнеры</a>
-                  </li>
-                  <li class="footer_list1_item">
-                    <a href="#">Наши баннеры</a>
-                  </li>
-                  <li class="footer_list1_item">
-                    <a href="#">Подшивка</a>
-                  </li>
-                </ul>
-              </div>  
-              <div class="col2 f_left">
-                <h5 class="footer_title2">Рубрикатор</h5>
-                <ul class="footer_list2">
-                  <li class="footer_list2_item">
-                    <a href="#">Вопросы теории</a>
-                  </li>
-                  <li class="footer_list2_item">
-                    <a href="#">Инженерные решения</a>
-                  </li>
-                  <li class="footer_list2_item">
-                    <a href="#">Инструменты и оборудование</a>
-                  </li>
-                  <li class="footer_list2_item">
-                    <a href="#">Надежность и качество</a>
-                  </li>
-                  <li class="footer_list2_item">
-                    <a href="#">Практическая электроника</a>
-                  </li>
-                  <li class="footer_list2_item">
-                    <a href="#">Приборы и системы</a>
-                  </li>
-                </ul>
-                <ul class="footer_list3">
-                  <li class="footer_list3_item">
-                    <a href="#">Программирование</a>
-                  </li>
-                  <li class="footer_list3_item">
-                    <a href="#">Проектирование и моделирование</a>
-                  </li>
-                  <li class="footer_list3_item">
-                    <a href="#">Рынок</a>
-                  </li>
-                  <li class="footer_list3_item">
-                    <a href="#">События</a>
-                  </li>
-                  <li class="footer_list3_item">
-                    <a href="#">Современные технологии</a>
-                  </li>
-                  <li class="footer_list3_item">
-                    <a href="#">Элементы и компоненты</a>
-                  </li>
-                </ul>
-              </div>  
-              <div class="col3 f_left">
-                <h5 class="footer_title3">Подшивка</h5>
-                <ul class="footer_list4">
-                  <li class="footer_list4_item">
-                    <a href="#">Новости</a>
-                  </li>
-                  <li class="footer_list4_item">
-                    <a href="#">События</a>
-                  </li>
-                  <li class="footer_list4_item">
-                    <a href="#">Контакты</a>
-                  </li>
-                  <li class="footer_list4_item">
-                    <a href="#">Форум</a>
-                  </li>
-                </ul>
-              </div>  
-              <div class="col4 f_left">  
-                <h5 class="footer_title4">Магазин</h5>
-                <ul class="footer_list5">
-                  <li class="footer_list5_item">
-                    <a href="#">Каталог</a>
-                  </li>
-                  <li class="footer_list5_item">
-                    <a href="#">Оплата</a>
-                  </li>
-                  <li class="footer_list5_item">
-                    <a href="#">Доставка</a>
-                  </li>
-                </ul>
-              </div>
-            </div>  
-            <div class="copyright">© СТА-ПРЕСС, 2014</div>
-          </div>  
-          <div class="footer_right f_right clearfix">
-            <div class="footer_right_inform wrapper">
-              <p class="footer_right_p1">Свидетельство о внесении в Реестр<br>
-              надёжных партнеров ТПП РФ</p>
-              <p class="footer_right_p2">Реестр надёжных партнеров<br>
-              ТПП РФ, www.tpprf.ru</p>
-              <a class="cta f_left" href="#">
-                <img src="images/CTA.jpg" alt="">
-              </a>
-              <p class="footer_right_p3">Журнал<br><a href="#">www.cta.ru</a></p>
-            </div>  
-            <div class="footer_links wrapper">  
-              <a class="footer_link_mail" href="#">
-                MAIL.RU
-              </a>
-              <a class="footer_link_hot" href="#">
-                HOT LOG
-              </a>
-              <a class="footer_link_img" href="#">
-                <img src="images/footer_arrow.jpg" alt="">
-              </a>
-            </div> 
-          </div>
-        </div>  
-      </div>
-    </footer>
+    <?php include("main_blocks/footer.php") ?>
    <script type="text/javascript" src="js/superfish.js"></script>
    <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
@@ -538,16 +347,5 @@
         });
       });
    </script>
-  <!--[if lt IE 8]>
-   <div style=' clear: both; text-align:center; position: relative;'>
-     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-    </a>
-  </div>
-<![endif]-->
-    <!--[if lt IE 9]>
-    <script type="text/javascript" src="js/html5.js"></script>
-      <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
-    <![endif]-->
 </body>
 </html>

@@ -76,7 +76,7 @@
 			left: 0;
 			top: -168px;
 		}
-aside[role="complementary"]{
+.flexslider aside[role="complementary"]{
 	background: url(../images/aside_bg.png) 0 0 repeat-y;
 	padding-left: 22px;
 	margin-top: -44px;
@@ -168,11 +168,11 @@ aside[role="complementary"]{
 	.front{
 		left: 0;
 		top: 0;
-		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
+		-webkit-transition: all 0.7s ease-in-out;
+		-moz-transition: all 0.7s ease-in-out;
+		-ms-transition: all 0.7s ease-in-out;
+		-o-transition: all 0.7s ease-in-out;
+		transition: all 0.7s ease-in-out;
 	}
 	.flip .front{
 		z-index: 900;
@@ -181,11 +181,11 @@ aside[role="complementary"]{
 		-ms-transform: rotateY(180deg);
 		-o-transform: rotateY(180deg);
 		transform: rotateY(180deg);
-		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-ms-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
 	}
 	.back{
 		left: 0;
@@ -197,11 +197,11 @@ aside[role="complementary"]{
 		-ms-transform: rotateY(180deg);
 		-o-transform: rotateY(180deg);
 		transform: rotateY(180deg);
-		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
+		-webkit-transition: all 0.7s ease-in-out;
+		-moz-transition: all 0.7s ease-in-out;
+		-ms-transition: all 0.7s ease-in-out;
+		-o-transition: all 0.7s ease-in-out;
+		transition: all 0.7s ease-in-out;
 	}
 	.flip .back{
 		z-index: 1000;
@@ -212,11 +212,11 @@ aside[role="complementary"]{
 		-ms-transform: rotateY(0deg);
 		-o-transform: rotateY(0deg);
 		transform: rotateY(0deg);
-		-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.4s ease-in-out;
-		-ms-transition: all 0.4s ease-in-out;
-		-o-transition: all 0.4s ease-in-out;
-		transition: all 0.4s ease-in-out;
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-ms-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
 	}
 
 	.photo_data{
@@ -411,3 +411,24 @@ hr[class*="border"]{
 	background-color: #c0c0c0;
 }
 .hem{margin-bottom: 30px;}
+
+
+
+/*about journal*/
+.sidebar .list4{margin-bottom: 55px;}
+.sidebar .list4_it{
+	border: 1px solid #c0c0c0;
+	margin-bottom: 9px;
+	text-align: center;
+}
+.sidebar .last_lk{
+	font-size: 14px;
+	line-height: 28px;
+	padding: 1px 0;
+	color: #707070;
+}
+.sidebar .product_it{
+	margin-bottom: 25px;
+}
+.sidebar .title3{padding-left: 30px;}
+.sidebar .subscription_year{left: 72px;}
