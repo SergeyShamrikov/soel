@@ -11,7 +11,7 @@
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider {margin: 0 0 25px; position: relative;height: 432px; }
+.flexslider {margin: 0 0 25px; position: relative;}
 .flex-viewport {}
 .loading .flex-viewport {max-height: 300px;}
 .flexslider .slides {zoom: 1;}

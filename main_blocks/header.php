@@ -3,7 +3,7 @@
         <div class="clearfix">
           <div class="head_left f_left"> 
             <h1 class="logo f_left">
-              <a href="index.html">
+              <a href="index.php">
                 Cовременная электроника
               </a>
             </h1>
@@ -28,16 +28,16 @@
         <nav class="clearfix">
           <ul class="sf-menu">
             <li class="sf-menu_item">
-              <a href="index.html">ЖУРНАЛ</a>
+              <a href="index.php">ЖУРНАЛ</a>
             </li>
             <li class="sf-menu_item">
-              <a href="index-1.html">РУБРИКАТОР</a>
+              <a href="categories.php">РУБРИКАТОР</a>
             </li>
             <li class="sf-menu_item current">
-              <a href="index-2.html">ПОДШИВКА</a>
+              <a href="hem.php">ПОДШИВКА</a>
             </li>
             <li class="sf-menu_item">
-              <a href="index-3.html">НОВОСТИ</a>
+              <a href="news.php">НОВОСТИ</a>
             </li>
             <li class="sf-menu_item">
               <a href="index-4.html">CОБЫТИЯ</a>

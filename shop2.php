@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Подшивка</title>
+    <title>Современная электроника</title>
     <meta name = "format-detection" content = "telephone=no" />
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -10,7 +10,7 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery-migrate-1.1.1.js"></script>
 </head>
-<body>
+<body class="shop_page2">
 <!--==============================header=================================-->
 	<?php include("main_blocks/header.php") ?>
 <!--==============================content================================-->
@@ -21,14 +21,17 @@
       				<a href="#" class="breadcrumbs_lk"></a>
       			</li>
       			<li class="breadcrumbs_it">
-      				<span>Подшивка</span>
-      			</li>
+              <a href="#" class="breadcrumbs_lk">Магазин</a>
+            </li>
+            <li class="breadcrumbs_it">
+              <span>Современная электроника</span>
+            </li>
       		</ul>
       	</div>
     </div>
 	<section class="hem">
 		<div class="main wrapper">
-			<h2 class="title5">Подшивка</h2>
+			<h2 class="title5">Современная электроника</h2>
 			<div class="filter">
 				<ul class="filter_list wrapper">
 					<li class="filter_it1">
