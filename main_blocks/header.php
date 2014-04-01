@@ -28,7 +28,7 @@
         <nav class="clearfix">
           <ul class="sf-menu">
             <li class="sf-menu_item">
-              <a href="index.php">ЖУРНАЛ</a>
+              <a href="jornal.php">ЖУРНАЛ</a>
             </li>
             <li class="sf-menu_item">
               <a href="categories.php">РУБРИКАТОР</a>
@@ -46,7 +46,7 @@
               <a href="index-5.html">ФОРУМ</a>
             </li>
             <li class="sf-menu_item">
-              <a href="index-6.html">МАГАЗИН</a>
+              <a href="shop.php">МАГАЗИН</a>
             </li>
             <li class="sf-menu_item">
               <a href="index-7.html">КОНТАКТЫ</a>

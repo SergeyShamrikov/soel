@@ -28,7 +28,7 @@
         </div>
     </div>
     <div class="main">
-      <h2 class="title5">О журнале</h2>
+      <h2 class="title5">Новости</h2>
       <div class="filter">
             <ul class="filter_list wrapper">
                 <li class="filter_it1">

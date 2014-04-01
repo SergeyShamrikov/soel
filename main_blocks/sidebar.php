@@ -12,10 +12,10 @@
           </div>
           <ul class="list4">
             <li class="list4_it">
-              <a href="#" class="list4_lk"><i class="read"></i>Читать</a>
+              <a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>
             </li>
             <li class="list4_it">
-              <a href="#" class="list4_lk"><i class="buy"></i>Купить</a>
+              <a href="private_office.php" class="list4_lk"><i class="buy"></i>Купить</a>
             </li>
             <li class="list4_it">
               <a href="#" class="list4_lk last_lk">Не получили журнал?</a>

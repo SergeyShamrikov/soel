@@ -22,13 +22,13 @@
             <div class="main">
                 <ul class="list1 wrapper animation_class animation_active app_left opacity tr2">
                   <li class="list1_it">
-                    <a href="#" class="list1_lk1"><b>№9</b>/2013</a>
+                    <a href="shop3.php" class="list1_lk1"><b>№9</b>/2013</a>
                   </li>
                   <li class="list1_it">
-                    <a href="#" class="list1_lk2"><i class="read"></i>Читать</a>
+                    <a href="about_journal.php" class="list1_lk2"><i class="read"></i>Читать</a>
                   </li>
                   <li class="list1_it">
-                    <a href="#" class="list1_lk3"><i class="buy"></i>Купить</a>
+                    <a href="private_office.php" class="list1_lk3"><i class="buy"></i>Купить</a>
                   </li>
                   <li class="list1_it">
                     <a href="#" class="list1_lk4">Не получили журнал?</a>
@@ -53,7 +53,7 @@
                   <li class="list2_it animation_class animation_active app_right opacity tr10">Приборы и системы</li>
                   <li class="list2_it animation_class animation_active app_right opacity tr11">Инженерные решения</li>
                 </ul>
-                <a href="#" class="button animation_class animation_active app_right opacity tr12">Все рубрики номера</a>
+                <a href="categories.php" class="button animation_class animation_active app_right opacity tr12">Все рубрики номера</a>
               </aside>
               <div class="clear"></div>
             </div>
@@ -65,13 +65,13 @@
             <div class="main">
                 <ul class="list1 wrapper animation_class animation_active app_left opacity tr2">
                   <li class="list1_it">
-                    <a href="#" class="list1_lk1"><b>№9</b>/2013</a>
+                    <a href="shop3.php" class="list1_lk1"><b>№9</b>/2013</a>
                   </li>
                   <li class="list1_it">
-                    <a href="#" class="list1_lk2"><i class="read"></i>Читать</a>
+                    <a href="about_journal.php" class="list1_lk2"><i class="read"></i>Читать</a>
                   </li>
                   <li class="list1_it">
-                    <a href="#" class="list1_lk3"><i class="buy"></i>Купить</a>
+                    <a href="private_office.php" class="list1_lk3"><i class="buy"></i>Купить</a>
                   </li>
                   <li class="list1_it">
                     <a href="#" class="list1_lk4">Не получили журнал?</a>
@@ -96,7 +96,7 @@
                   <li class="list2_it animation_class animation_active app_right opacity tr10">Приборы и системы</li>
                   <li class="list2_it animation_class animation_active app_right opacity tr11">Инженерные решения</li>
                 </ul>
-                <a href="#" class="button animation_class animation_active app_right opacity tr12">Все рубрики номера</a>
+                <a href="categories.php" class="button animation_class animation_active app_right opacity tr12">Все рубрики номера</a>
               </aside>
               <div class="clear"></div>
             </div>
@@ -297,7 +297,7 @@
                 </div>
               </li>
             </ul>
-            <a href="#" class="button">Все новости</a>
+            <a href="news.php" class="button">Все новости</a>
             <div class="share f_right">
               <span>Поделиться:</span>
               <a href="#" class="icon_email"></a>

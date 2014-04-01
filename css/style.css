@@ -3,6 +3,7 @@
 @import "../css/flexslider.css";
 @import "../css/style1.css";
 @import "../css/private_office.css";
+@import "../css/magazine1.css";
 @import "../font/font.css";
 @import url(http://fonts.googleapis.com/css?family=Roboto:300&subset=latin,cyrillic);
 article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
@@ -63,6 +64,7 @@ a:hover{
 .m_right_zero{ margin-right:0 !important;}
 .p_bot_zero{ padding-bottom:0 !important;}
 .p_left_zero{ padding-left:0 !important;}
+.p_right_zero{ padding-right:0 !important;}
 
 /*----------------------> Positions <------------------*/
 .p_abs{position: absolute;}
@@ -110,7 +112,7 @@ h1.logo a{
 .header_magazine{
   float: left;
   margin: 25px 0 0 21px;
-  padding-top: 8px; 
+  padding-top: 6px; 
   font-size: 18px;
   line-height: 18px;
   height: 50px;
@@ -230,6 +232,7 @@ button{
 }
 /*=====================> Content ========================*/
 #content {padding:0px 0px 30px 0px;}
+body.private_office #content{padding-bottom: 50px;}
 .cont_pad{padding:0 0 0 0 !important;}
 
 

@@ -27,7 +27,7 @@
               </a>
             </li>
             <li class="breadcrumbs_it">
-              <span>Подшивка</span>
+              <span>Личный кабинет</span>
             </li>
           </ul>
         </div>

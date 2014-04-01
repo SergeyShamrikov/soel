@@ -22,10 +22,13 @@
               <a href="#" class="breadcrumbs_lk"></a>
             </li>
             <li class="breadcrumbs_it">
-              <a href="#" class="breadcrumbs_lk">Журнал</a>
+              <a href="#" class="breadcrumbs_lk">Магазин</a>
             </li>
             <li class="breadcrumbs_it">
-              <span>О журнале</span>
+              <a href="#" class="breadcrumbs_lk">Современная электроника</a>
+            </li>
+            <li class="breadcrumbs_it">
+              <span>№9 / 2013</span>
             </li>
           </ul>
         </div>
@@ -70,7 +73,7 @@
       	<?php include("main_blocks/sidebar.php") ?>
       	<section role="main" class="f_right">
       		<div class="scroll_box1">
-      			<div class="scroll-pane horizontal-only">
+      			<div class="scroll-pane1 horizontal-only">
       				<ul class="gallery1">
       					<li class="gallery1_it">
       						<img src="images/gallery1_img1.png" alt="">
@@ -175,7 +178,7 @@
       		</div>
           <div class="photo_gallery">
             <h3 class="title3">Другие номера
-              <a href="#" class="f_right button1">Просмотреть все номера издания</a>
+              <a href="hem.php" class="f_right button1">Просмотреть все номера издания</a>
             </h3>
             <div class="scroll-pane horizontal-only">
               <ul class="gallery2">
@@ -256,6 +259,10 @@
     <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
     <script>
         $(function(){
+          jQuery('.scroll-pane1').jScrollPane({
+            showArrows: true,
+            resiz: true
+          });
           jQuery('.scroll-pane').jScrollPane({
             showArrows: true,
             resiz: true

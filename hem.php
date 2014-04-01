@@ -78,7 +78,7 @@
 								<div class="product_menu p_abs">
 									<ul class="list4">
 										<li class="list4_it">
-											<a href="jornal.php" class="list4_lk">Содержание</a>
+											<a href="shop3.php" class="list4_lk">Содержание</a>
 										</li>
 										<li class="list4_it">
 											<a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>
@@ -104,7 +104,7 @@
 								<div class="product_menu p_abs">
 									<ul class="list4">
 										<li class="list4_it">
-											<a href="jornal.php" class="list4_lk">Содержание</a>
+											<a href="shop3.php" class="list4_lk">Содержание</a>
 										</li>
 										<li class="list4_it">
 											<a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>
@@ -130,7 +130,7 @@
 								<div class="product_menu p_abs">
 									<ul class="list4">
 										<li class="list4_it">
-											<a href="jornal.php" class="list4_lk">Содержание</a>
+											<a href="shop3.php" class="list4_lk">Содержание</a>
 										</li>
 										<li class="list4_it">
 											<a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>
@@ -156,7 +156,7 @@
 								<div class="product_menu p_abs">
 									<ul class="list4">
 										<li class="list4_it">
-											<a href="jornal.php" class="list4_lk">Содержание</a>
+											<a href="shop3.php" class="list4_lk">Содержание</a>
 										</li>
 										<li class="list4_it">
 											<a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>
@@ -182,7 +182,7 @@
 								<div class="product_menu p_abs">
 									<ul class="list4">
 										<li class="list4_it">
-											<a href="jornal.php" class="list4_lk">Содержание</a>
+											<a href="shop3.php" class="list4_lk">Содержание</a>
 										</li>
 										<li class="list4_it">
 											<a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>
@@ -208,7 +208,7 @@
 								<div class="product_menu p_abs">
 									<ul class="list4">
 										<li class="list4_it">
-											<a href="jornal.php" class="list4_lk">Содержание</a>
+											<a href="shop3.php" class="list4_lk">Содержание</a>
 										</li>
 										<li class="list4_it">
 											<a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>
@@ -234,7 +234,7 @@
 								<div class="product_menu p_abs">
 									<ul class="list4">
 										<li class="list4_it">
-											<a href="jornal.php" class="list4_lk">Содержание</a>
+											<a href="shop3.php" class="list4_lk">Содержание</a>
 										</li>
 										<li class="list4_it">
 											<a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>
@@ -260,7 +260,7 @@
 								<div class="product_menu p_abs">
 									<ul class="list4">
 										<li class="list4_it">
-											<a href="jornal.php" class="list4_lk">Содержание</a>
+											<a href="shop3.php" class="list4_lk">Содержание</a>
 										</li>
 										<li class="list4_it">
 											<a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>
@@ -286,7 +286,7 @@
 								<div class="product_menu p_abs">
 									<ul class="list4">
 										<li class="list4_it">
-											<a href="jornal.php" class="list4_lk">Содержание</a>
+											<a href="shop3.php" class="list4_lk">Содержание</a>
 										</li>
 										<li class="list4_it">
 											<a href="about_journal.php" class="list4_lk"><i class="read"></i>Читать</a>

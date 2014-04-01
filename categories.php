@@ -127,11 +127,6 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 14</span>
                         <h4 class="title6 title6_1">Автоэлектроника: тенденции и тренды…</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <span class="hp1">Николай Василенко</span>
                         <p>Всё началось с изобретения колеса. К тому 
                         времени человек уже научился добывать огонь и 
@@ -145,7 +140,8 @@
                         накопления электроэнергии всё больше 
                         убеждают – будущее за электромобилями.</p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                         <a href="#" class="extra_lk">Дополнительные<br> материалы</a>
                     </td>
@@ -154,11 +150,6 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 25</span>
                         <h4 class="title6 title6_1">Число станций быстрого заряда электромобилей достигнет 200 000 к 2020 году</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <span class="hp1">Николай Василенко</span>
                         <p>Развитие технологий быстрой подзарядки электромобилей 
                         стимулирует рост рынка зарядных станций. На основании 
@@ -168,7 +159,8 @@
                         году. При этом ожидается, что число зарядных станций 
                         возрастёт более </p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                     </td>
                 </tr>
@@ -176,11 +168,6 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 27</span>
                         <h4 class="title6 title6_1">Защита данных в ИТ-системах</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <span class="hp1">Николай Василенко</span>
                         <p>Защита данных является обязательной задачей 
                         при разработке архитектуры ИТ-систем. Существуют 
@@ -191,7 +178,8 @@
                         обеспечивая их соответствие современным критериям 
                         </p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                         <a href="#" class="extra_lk">Дополнительные<br> материалы</a>
                     </td>
@@ -207,11 +195,6 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 30</span>
                         <h4 class="title6 title6_1">Современные 32-разрядные ARM-микроконтроллеры серии STM32: часы реального времени RTC</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <span class="hp1">Николай Василенко</span>
                         <p>Приведено описание часов реального времени 
                         RTC 32-разрядных ARM-микроконтроллеров серии 
@@ -220,7 +203,8 @@
                         регистров конфигурирования RTC, а также примеры 
                         программ для работы </p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                         <a href="#" class="extra_lk">Дополнительные<br> материалы</a>
                     </td>
@@ -229,32 +213,24 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 33</span>
                         <h4 class="title6 title6_1">Мультиклеты – новое слово в микропроцессорах</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
-                        <span class="hp1">Борис Зырянов, Николай Стрельцов, Дмитрий Кукушкин, Михаил Власов, Михаил Бахтерев, Наталья Горностаева</span>
+                         <span class="hp1">Борис Зырянов, Николай Стрельцов, Дмитрий Кукушкин, Михаил Власов, Михаил Бахтерев, Наталья Горностаева</span>
                         <p>В статье представлен новый тип процессора с 
                         мультиклеточной архитектурой, позволяющей 
                         увеличить производительность в 4–5 раз при 
                         одновременном снижении энергопотребления и 
                         уменьшении площади </p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                     </td>
                 </tr>
+                <tr>
                 <tr>
                     <td class="cell_left">
                         <span class="hp1">Стр. 45</span>
                         <h4 class="title6 title6_1">Модули фильтрации и защиты от перенапряжений 
                         для питающих сетей постоянного тока</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <span class="hp1">Николай Василенко</span>
                         <p>Одним из главных направлений оптимизации 
                         и повышения эффективности систем вторичного 
@@ -263,10 +239,12 @@
                         которые дополняют существующие компоненты 
                         </p>
                     </td>
-                    <td class="cell_right">
-                        <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
+                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                     </td>
                 </tr>
+                <tr>
                 <tr><td colspan="2"></td></tr>
             </table>
             <table class="journal_table">
@@ -278,18 +256,14 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 48</span>
                         <h4 class="title6 title6_1">Выявление конфликтов доступа к шине CAN с помощью осциллографа</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <span class="hp1">Николай Василенко</span>
                         <p>В статье описывается проблематика 
                         конфликта данных, возникающего при 
                         асинхронной передаче пакетов по шине CAN. 
                         Показаны пути решения с помощью осциллографа.</p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                     </td>
                 </tr>
@@ -297,11 +271,6 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 53</span>
                         <h4 class="title6 title6_1">Различные типы систем бесперебойного питания</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <span class="hp1">Борис Зырянов</span>
                         <p>На рынке царит путаница, касающаяся 
                         различных типов систем бесперебойного 
@@ -312,7 +281,8 @@
                         можно принять взвешенное решение о топологии 
                         бесперебойного питания, соответствующей заданной </p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                     </td>
                 </tr>
@@ -327,11 +297,6 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 55</span>
                         <h4 class="title6 title6_1">Регулятор мощности паяльника в сетевой вилке</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <span class="hp1">Николай Василенко</span>
                         <p>В статье описан регулятор напряжения 
                         для паяльника мощностью до 100 Вт на 
@@ -340,7 +305,8 @@
                         позволили смонтировать регулятор в обыкновенной 
                         вилке, предназначенной для сетевого напряжения 220 В.</p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                         <a href="#" class="extra_lk">Дополнительные<br> материалы</a>
                     </td>
@@ -356,11 +322,6 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 60</span>
                         <h4 class="title6 title6_1">Авиасалон МАКС-2013: возрождение великой державы</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <p>Летом 2013 г. в подмосковном Жуковском состоялся 
                         XI Международный авиационно-космический салон МАКС-2013. 
                         С 27 августа по 1 сентября многочисленным посетителям 
@@ -371,7 +332,8 @@
                         (Т-50) и демонстрация фигур высшего пилотажа истребителями 
                         Су-35C и Т-50.</p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                         <a href="#" class="extra_lk">Дополнительные<br> материалы</a>
                     </td>
@@ -380,11 +342,6 @@
                     <td class="cell_left">
                         <span class="hp1">Стр. 65</span>
                         <h4 class="title6 title6_1">Золотой чип» – высокая награда на престижной выставке</h4>
-                    </td>
-                    <td class="cell_read cell_right"><a href="#" class="read_lk"><i class="read"></i>Читать статью</a></td>
-                </tr>
-                <tr>
-                    <td class="cell_left">
                         <p>Премия «Золотой чип» будет вручена в 11-й раз 
                         на выставке «Новая электроника-2014» (25–27 марта 
                         2014 г., Москва, ЦВК «Экспоцентр»). 
@@ -397,7 +354,8 @@
                         государственных приоритетов в области технологической 
                         политики.</p>
                     </td>
-                    <td class="cell_right">
+                    <td class="cell_read cell_right">
+                        <a href="#" class="read_lk"><i class="read"></i>Читать статью</a>
                         <a href="#" class="download_lk">Скачать PDF, 8 МБ.</a>
                     </td>
                 </tr>
