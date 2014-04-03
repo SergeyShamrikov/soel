@@ -90,6 +90,36 @@
       					<li class="gallery1_it">
       						<img src="images/gallery1_img1.png" alt="">
       					</li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img1.png" alt="">
+                </li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img2.png" alt="">
+                </li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img1.png" alt="">
+                </li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img2.png" alt="">
+                </li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img1.png" alt="">
+                </li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img1.png" alt="">
+                </li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img2.png" alt="">
+                </li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img1.png" alt="">
+                </li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img2.png" alt="">
+                </li>
+                <li class="gallery1_it">
+                  <img src="images/gallery1_img1.png" alt="">
+                </li>
       				</ul>
       			</div>
       		</div>
@@ -259,14 +289,15 @@
     <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
     <script>
         $(function(){
-          jQuery('.scroll-pane1').jScrollPane({
-            showArrows: true,
-            resiz: true
-          });
           jQuery('.scroll-pane').jScrollPane({
             showArrows: true,
             resiz: true
           });
+          jQuery('.scroll-pane1').jScrollPane({
+            showArrows: true,
+            resiz: true
+          });
+          
         });
     </script>
 </body>
