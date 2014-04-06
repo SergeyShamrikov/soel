@@ -14,96 +14,60 @@
 <!--==============================header=================================-->
    <?php include("main_blocks/header.php") ?>
 <!--==============================content================================-->
-    <div class="flexslider wrapper">
-      <ul class="slides">
-        <li class="slides_it">
-          <img class="slides_img" src="images/flex_img1.jpg" alt="">
-          <div class="nav_options">
-            <div class="main">
-                <ul class="list1 wrapper animation_class animation_active app_left opacity tr2">
-                  <li class="list1_it">
-                    <a href="shop3.php" class="list1_lk1"><b>№9</b>/2013</a>
-                  </li>
-                  <li class="list1_it">
-                    <a href="about_journal.php" class="list1_lk2"><i class="read"></i>Читать</a>
-                  </li>
-                  <li class="list1_it">
-                    <a href="private_office.php" class="list1_lk3"><i class="buy"></i>Купить</a>
-                  </li>
-                  <li class="list1_it">
-                    <a href="#" class="list1_lk4">Не получили журнал?</a>
-                  </li>
-                </ul>
-            </div>  
-          </div>
-          <div class="slide_content">
-            <div class="main">
-              <article class="f_left p_rel">
-                <img class="p_abs magazine animation_class animation_active opacity tr7" src="images/magazine_img1.png" alt="">
-                <h6 class="title1 animation_class animation_active opacity app_left tr3">Инжинерные решения</h6>
-                <p class="text1 animation_class animation_active app_left opacity tr4">Решение проблемы выбора между параллельным и последовательным интерфейсом памяти во встраиваемых системах на базе Cortex-M3 с функцией SPIFI</p>
-                <a href="#" class="button animation_class animation_active app_left opacity tr5">Читать статью</a>
-              </article>
-              <aside role="complementary" class="f_left">
-                <h4 class="title2 animation_class animation_active app_left opacity tr2"><i class="rubrics"></i>Рубрики номера</h4>  
-                <ul class="list2">
-                  <li class="list2_it animation_class animation_active app_right opacity tr7">Вопросы теории</li>
-                  <li class="list2_it animation_class animation_active app_right opacity tr8">Рынок</li>
-                  <li class="list2_it animation_class animation_active app_right opacity tr9">Элементы и компоненты</li>
-                  <li class="list2_it animation_class animation_active app_right opacity tr10">Приборы и системы</li>
-                  <li class="list2_it animation_class animation_active app_right opacity tr11">Инженерные решения</li>
-                </ul>
-                <a href="categories.php" class="button animation_class animation_active app_right opacity tr12">Все рубрики номера</a>
-              </aside>
-              <div class="clear"></div>
+    <section class="issue_box wrapper">
+      <img class="slides_img" src="images/flex_img1.jpg" alt="">
+      <div class="nav_options">
+        <div class="main">
+            <ul class="list1 wrapper">
+              <li class="list1_it">
+                <a href="shop3.php" class="list1_lk1"><b>№9</b>/2013</a>
+              </li>
+              <li class="list1_it">
+                <a href="about_journal.php" class="list1_lk2"><i class="read"></i>Читать</a>
+              </li>
+              <li class="list1_it">
+                <a href="private_office.php" class="list1_lk3"><i class="buy"></i>Купить</a>
+              </li>
+              <li class="list1_it">
+                <a href="#" class="list1_lk4">Не получили журнал?</a>
+              </li>
+            </ul>
+        </div>  
+      </div>
+      <div class="slide_content">
+        <div class="main">
+          <article class="f_left p_rel">
+            <img class="p_abs magazine" src="images/magazine_img1.png" alt="">
+            <div class="flexslider p_rel">
+              <ul class="slides">
+                <li class="slides_it wrapper">
+                  <h6 class="title1 animation_class opacity app_right tr3">Инжинерные решения</h6>
+                  <p class="text1 animation_class opacity app_right tr5">Решение проблемы выбора между параллельным и последовательным интерфейсом памяти во встраиваемых системах на базе Cortex-M3 с функцией SPIFI</p>
+                  <a href="#" class="button animation_class opacity app_right tr7">Читать статью</a>
+                </li>
+                <li class="slides_it wapper">
+                  <h6 class="title1 animation_class opacity app_right tr3">Инжинерные решения</h6>
+                  <p class="text1 animation_class opacity tr5 app_right">Решение проблемы выбора между параллельным и последовательным интерфейсом памяти во встраиваемых системах на базе Cortex-M3 с функцией SPIFI</p>
+                  <a href="#" class="button animation_class opacity app_right tr7">Читать статью</a>
+                </li>
+              </ul>
             </div>
-          </div>
-        </li>
-        <li class="slides_it">
-          <img class="slides_img" src="images/flex_img1.jpg" alt="">
-          <div class="nav_options">
-            <div class="main">
-                <ul class="list1 wrapper animation_class animation_active app_left opacity tr2">
-                  <li class="list1_it">
-                    <a href="shop3.php" class="list1_lk1"><b>№9</b>/2013</a>
-                  </li>
-                  <li class="list1_it">
-                    <a href="about_journal.php" class="list1_lk2"><i class="read"></i>Читать</a>
-                  </li>
-                  <li class="list1_it">
-                    <a href="private_office.php" class="list1_lk3"><i class="buy"></i>Купить</a>
-                  </li>
-                  <li class="list1_it">
-                    <a href="#" class="list1_lk4">Не получили журнал?</a>
-                  </li>
-                </ul>
-            </div>  
-          </div>
-          <div class="slide_content">
-            <div class="main">
-              <article class="f_left p_rel">
-                <img class="p_abs magazine animation_class animation_active opacity tr7" src="images/magazine_img1.png" alt="">
-                <h6 class="title1 animation_class animation_active opacity app_left tr3">Инжинерные решения</h6>
-                <p class="text1 animation_class animation_active app_left opacity tr4">Решение проблемы выбора между параллельным и последовательным интерфейсом памяти во встраиваемых системах на базе Cortex-M3 с функцией SPIFI</p>
-                <a href="#" class="button animation_class animation_active app_left opacity tr5">Читать статью</a>
-              </article>
-              <aside role="complementary" class="f_left">
-                <h4 class="title2 animation_class animation_active app_left opacity tr2"><i class="rubrics"></i>Рубрики номера</h4>  
-                <ul class="list2">
-                  <li class="list2_it animation_class animation_active app_right opacity tr7">Вопросы теории</li>
-                  <li class="list2_it animation_class animation_active app_right opacity tr8">Рынок</li>
-                  <li class="list2_it animation_class animation_active app_right opacity tr9">Элементы и компоненты</li>
-                  <li class="list2_it animation_class animation_active app_right opacity tr10">Приборы и системы</li>
-                  <li class="list2_it animation_class animation_active app_right opacity tr11">Инженерные решения</li>
-                </ul>
-                <a href="categories.php" class="button animation_class animation_active app_right opacity tr12">Все рубрики номера</a>
-              </aside>
-              <div class="clear"></div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
+          </article>
+          <aside role="complementary" class="f_left">
+            <h4 class="title2"><i class="rubrics"></i>Рубрики номера</h4>  
+            <ul class="list2">
+              <li class="list2_it">Вопросы теории</li>
+              <li class="list2_it">Рынок</li>
+              <li class="list2_it">Элементы и компоненты</li>
+              <li class="list2_it">Приборы и системы</li>
+              <li class="list2_it">Инженерные решения</li>
+            </ul>
+            <a href="categories.php" class="button">Все рубрики номера</a>
+          </aside>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </section>
     <section id="content">
       <div class="main">
         <div class="column_left f_left">
