@@ -292,10 +292,8 @@
 <!--==============================footer=================================-->
     <?php include("main_blocks/footer.php") ?>
    <script type="text/javascript" src="js/superfish.js"></script>
-   <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-   <script src="js/script.js"></script>
    <script type="text/javascript">
       $(window).load(function() {
         $('.flexslider').flexslider({
