@@ -128,4 +128,10 @@
           </div>
         </div>  
       </div>
+      <div class="hiden_box">
+        <?php include("registration.php") ?>
+        <?php include("input_pop_up.php") ?>
+        <?php include("free_subscription.php") ?>
+        <?php include("not_received_zhernal.php") ?>
+      </div>
     </footer>

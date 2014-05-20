@@ -1,6 +1,7 @@
 @import "../css/reset.css";
 @import "../css/superfish.css";
 @import "../css/flexslider.css";
+@import "../css/jquery.arcticmodal-0.3.css";
 @import "../font/font.css";
 @import url(http://fonts.googleapis.com/css?family=Roboto:300&subset=latin,cyrillic);
 article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
@@ -1099,12 +1100,173 @@ ul.gallery1{
 .box_bottom_sub_list3_link2:hover{
   color: #000;
 }
+
+/*pop-up*/
+.modal{
+  padding:30px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 3px #b4b4b4;
+  -moz-box-shadow: 0 0 3px #b4b4b4;
+  box-shadow: 0 0 3px #b4b4b4;
+}
+#registraiton_box{
+  width: 395px;
+}
+.modal_box{
+  padding-top: 30px;
+}
+.bdb{border-bottom: 1px solid #b4b4b4;}
+
+.hiden_box{display: none;}
+
+.modal label{
+  font-size: 18px;
+  line-height: 22px;
+}
+.imput_box{padding-bottom: 20px;font-size: 18px;}
+.modal_inp{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 222px;
+  padding-left: 10px;
+  border: 1px solid #b4b4b4;
+  -webkit-box-shadow: inset 1px 0 2px #dedede;
+  -moz-box-shadow: inset 1px 0 2px #dedede;
+  box-shadow: inset 1px 0 2px #dedede;
+  outline: none;
+  height: 28px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #c0c0c0;
+  background: #f9f9f9; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f9f9f9 0%, #ffffff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f9f9f9 0%,#ffffff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f9f9f9 0%,#ffffff 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f9f9f9 0%,#ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.modal_btn{
+  width: 100%;
+  height: auto;
+  display: block;
+  position: static;
+  color: #fefefe;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding: 5px 0;
+  background: #0073b2;
+}
+.modal_btn:hover{
+  background-color: #3da8e3;
+}
+/*input_pop_up*/
+#input_pop_up_box{width: 305px;}
+[type="checkbox"]{display: none;}
+.modal [for="remember_me"]{
+  font-size: 14px;
+  line-height: 24px;
+  color: #707070;
+  cursor: pointer;
+}
+[for="remember_me"]:before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 4px;
+  background: url(../images/checkbox_icon.png) 0 0 no-repeat;
+}
+[type="checkbox"]:checked+[for="remember_me"]:before{
+  background: url(../images/checkbox_checked_icon.png) 0 0 no-repeat;
+}
+.forgot_password{
+  font-size: 14px;
+  line-height: 24px;
+  color: #707070;
+}
+.forgot_password:hover{
+  text-decoration: underline;
+}
+#not_received_zhernal_box{
+  width: 424px;
+}
+.w100{
+  width: 100%;
+}
+.necessarily_marker{
+  color: #0073b2;
+}
+.tel_country{width: 70px;margin-right: 5px;padding-left: 0;text-align: center;}
+.tel_cod{width: 70px;margin:0 4px;padding-left: 0;text-align: center;}
+.tel_number{width: 244px;margin-left: 5px;}
+
+
+/**/
+.modal select{
+  width: 160px;
+  margin-left: 20px;
+  position: relative;
+}
+.modal [name="number"]{
+  margin-left: 0;
+}
+.modal select:before{
+  content: "";
+  display: block;
+  width: 32px;
+  height: 30px;
+  background:  url(../images/select_icon.png) 0 0 no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.required{
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  color: #707070;
+  padding-top: 15px;
+}
+textarea[name="coment_text"]{
+  width: 100%;
+  height: 60px;
+}
+#answer_no{margin-left: 50px;}
+/*===================free subscription=======================*/
+#free_subscription {
+width: 670px;
+}
+.free_img{overflow: hidden;padding-right: 47px;padding-top: 29px;}
+.free_main{border-bottom:1px solid #b4b4b4;}
+.popup_open{cursor: pointer;}
+.title44{
+  font-size: 37px;
+  color: #0073b2;
+  padding-bottom: 25px;
+  padding-top: 31px;
+  font-weight: normal;
+}
+.free_main{
+  text-align: center;
+  padding-bottom: 18px;
+  font-size: 14px;
+  color: #000;
+}
+.free_main a:hover{text-decoration: underline;}
+.free_main a{text-decoration:none;color: #000;}
+.sub_inf{padding-bottom: 43px;}
+
 /*=====================> Paragraphs ========================*/
 
 p {margin-bottom:18px}
 .p2{ margin-bottom:0;}
 .p3{ margin-bottom:25px;}
-.p4{ margin-bottom:0;}
+.p4{ margin-bottom:5px;}
 .p5{ margin-bottom:0;}
 .p6{ margin-bottom:0;}
 
@@ -1398,21 +1560,6 @@ a:hover{
 
 .demo{}
 .demo:hover{ text-decoration:underline;}
-/*
-<dl class="adress">
-  <dt><strong>8901 Marmora Road,<br>Glasgow, D04 89GR.</strong></dt>
-  <dd><span>Freephone:</span>+1 800 559 6580</dd>
-  <dd><span>Telephone:</span>+1 800 603 6035</dd>
-  <dd><span>FAX:</span>+1 800 889 9898</dd>
-  <dd>E-mail: <a href="#" class="demo">mail@demolink.org</a></dd>
-</dl>
-<div class="social">
-	<a href="#" title="RSS"><img src="images/soc1.png" alt=""></a>
-	<a href="#" title="Twitter"><img src="images/soc2.png" alt=""></a>
-	<a href="#" title="Facebook"><img src="images/soc3.png" alt=""></a>
-	<a href="#" title="Google +"><img src="images/soc4.png" alt=""></a>
-</div>
-*/
 
 /*================================>> Footer <<========================================*/
 footer {
@@ -1507,3 +1654,5 @@ footer h5{
 .social a:hover img{
   margin-top:-32px;
 }
+
+

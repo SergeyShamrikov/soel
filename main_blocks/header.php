@@ -16,8 +16,8 @@
               <a href="#"><img src="images/engl_flag.png" alt=""></a>
             </div>
             <div class="header_links">
-              <a href="#" class="input">Вход</a> 
-              <a href="#" class="registration">Регистрация</a> 
+              <a href="#" class="input popup_open" data-popap="#input_pop_up_box">Вход</a> 
+              <a href="#" class="registration popup_open" data-popap="#registraiton_box">Регистрация</a> 
               <a href="#" class="basket">
                 <img src="images/input.png" alt="">
                 <span class="basket_item">3</span>

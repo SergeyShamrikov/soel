@@ -29,7 +29,7 @@
                 <a href="private_office.php" class="list1_lk3"><i class="buy"></i>Купить</a>
               </li>
               <li class="list1_it">
-                <a href="#" class="list1_lk4">Не получили журнал?</a>
+                <a href="#" class="list1_lk4 popup_open" data-popap="#not_received_zhernal_box">Не получили журнал?</a>
               </li>
             </ul>
         </div>  
@@ -275,7 +275,7 @@
           <div class="subscription p_rel"> 
             <h3 class="title3">Подписка</h3>
             <span class="subscription_year p_abs">20<b>14</b></span>
-            <div class="banner1">
+            <div class="banner1 popup_open" data-popap="#free_subscription">
               <img src="images/banner_img2.png" alt="">
             </div>
             <div class="banner2">
@@ -294,6 +294,7 @@
    <script type="text/javascript" src="js/superfish.js"></script>
    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+   <script type="text/javascript" src="js/jquery.arcticmodal-0.3.min.js"></script>
    <script type="text/javascript">
       $(window).load(function() {
         $('.flexslider').flexslider({
@@ -306,6 +307,10 @@
           $(this).addClass('flip');
         },function(){
           $(this).removeClass('flip');
+        });
+        $('.popup_open').live('click',function(){
+          var modal = $(this).data("popap");
+          $(modal).arcticmodal();
         });
       });
    </script>
