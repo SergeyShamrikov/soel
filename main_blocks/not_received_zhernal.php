@@ -54,7 +54,7 @@
 		</div>
 		<div class="clearfix imput_box">
 			<h4 class="modal_titile p4">Комментарий</h4>
-			<textarea name="coment_text" id=""></textarea>
+			<textarea class="paddlef10" name="coment_text" id=""></textarea>
 		</div>
 		<button class="modal_btn">Войти</button>
 		<div class="required">
