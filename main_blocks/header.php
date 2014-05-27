@@ -53,7 +53,7 @@
             </li>
           </ul>
           <form class="search" action="#">
-            <input type="text" name="search" value="Поиск по сайту" onblur="if(this.value=='') this.value='Поиск по сайту'" onfocus="if(this.value =='Поиск по сайту' ) this.value=''"><button></button>
+            <input type="text" name="search" value="Поиск по сайту" onblur="if(this.value=='') this.value='Поиск по сайту'" onfocus="if(this.value =='Поиск по сайту' ) this.value=''"><button class="search_btn"></button>
           </form>
           <div class="clear"></div>
         </nav>

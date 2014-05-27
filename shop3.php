@@ -192,16 +192,16 @@
       					<td class="info_prices_cell1">
       						<span class="electronic_price"><i></i>Электронная версия</span>
       					</td>
-      					<td>100р.</td>
-      					<td>500р.</td>
+      					<td><a class="info_prices_buy" href="index.php">100р.</a></td>
+      					<td><a class="info_prices_buy" href="#">500р.</a></td>
       					<td>Выбрать</td>
       				</tr>
       				<tr>
       					<td class="info_prices_cell1">
       						<span class="paper_price"><i></i>Бумажная версия</span>
       					</td>
-      					<td>180р.</td>
-      					<td>1100р.</td>
+      					<td><a class="info_prices_buy" href="#">180р.</a></td>
+      					<td><a class="info_prices_buy" href="#">1100р.</a></td>
       					<td>Выбрать</td>
       				</tr>
       			</table>

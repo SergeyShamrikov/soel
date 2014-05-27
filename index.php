@@ -14,7 +14,7 @@
 <!--==============================header=================================-->
    <?php include("main_blocks/header.php") ?>
 <!--==============================content================================-->
-    <section class="issue_box wrapper">
+    <section class="issue_box clearfix">
       <img class="slides_img" src="images/flex_img1.jpg" alt="">
       <div class="nav_options">
         <div class="main">
@@ -36,35 +36,46 @@
       </div>
       <div class="slide_content">
         <div class="main">
-          <article class="f_left p_rel">
-            <img class="p_abs magazine" src="images/magazine_img1.png" alt="">
-            <div class="flexslider p_rel">
-              <ul class="slides">
-                <li class="slides_it wrapper">
-                  <h6 class="title1 animation_class opacity app_right tr3">Инжинерные решения</h6>
-                  <p class="text1 animation_class opacity app_right tr5">Решение проблемы выбора между параллельным и последовательным интерфейсом памяти во встраиваемых системах на базе Cortex-M3 с функцией SPIFI</p>
-                  <a href="#" class="button animation_class opacity app_right tr7">Читать статью</a>
-                </li>
-                <li class="slides_it wapper">
-                  <h6 class="title1 animation_class opacity app_right tr3">Инжинерные решения</h6>
-                  <p class="text1 animation_class opacity tr5 app_right">Решение проблемы выбора между параллельным и последовательным интерфейсом памяти во встраиваемых системах на базе Cortex-M3 с функцией SPIFI</p>
-                  <a href="#" class="button animation_class opacity app_right tr7">Читать статью</a>
-                </li>
+          <div class="p_rel">
+            <article class="f_left p_rel">
+              <img class="p_abs magazine" src="images/magazine_img1.png" alt="">
+              <div class="flexslider p_rel">
+                <ul class="slides">
+                  <li class="slides_it wrapper">
+                    <h6 class="title1 animation_class opacity app_right tr3">Инжинерные решения</h6>
+                    <p class="text1 animation_class opacity app_right tr5">Решение проблемы выбора между параллельным и последовательным интерфейсом памяти во встраиваемых системах на базе Cortex-M3 с функцией SPIFI</p>
+                    <a href="#" class="button animation_class opacity app_right tr7">Читать статью</a>
+                  </li>
+                  <li class="slides_it wapper">
+                    <h6 class="title1 animation_class opacity app_right tr3">Инжинерные решения</h6>
+                    <p class="text1 animation_class opacity tr5 app_right">Решение проблемы выбора между параллельным и последовательным интерфейсом памяти во встраиваемых системах на базе Cortex-M3 с функцией SPIFI</p>
+                    <a href="#" class="button animation_class opacity app_right tr7">Читать статью</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <aside role="complementary" class="p_abs">
+              <h4 class="title2 title_bg"><i class="rubrics"></i>Рубрики номера</h4>  
+              <ul class="list2">
+                <li class="list2_it">Рынок</li>
+                <li class="list2_it">Современные технологии</li>
+                <li class="list2_it">Элементы и компоненты</li>
+                <li class="list2_it">Приборы и системы</li>
+                <li class="list2_it">Инструменты и оборудование</li>
               </ul>
-            </div>
-          </article>
-          <aside role="complementary" class="f_left">
-            <h4 class="title2"><i class="rubrics"></i>Рубрики номера</h4>  
-            <ul class="list2">
-              <li class="list2_it">Вопросы теории</li>
-              <li class="list2_it">Рынок</li>
-              <li class="list2_it">Элементы и компоненты</li>
-              <li class="list2_it">Приборы и системы</li>
-              <li class="list2_it">Инженерные решения</li>
-            </ul>
-            <a href="categories.php" class="button">Все рубрики номера</a>
-          </aside>
-          <div class="clear"></div>
+              <ul class="list2 all_section1">
+                <li class="list2_it">Практическая электроника</li>
+                <li class="list2_it">Инженерные решения</li>
+                <li class="list2_it">Проектирование и моделирование</li>
+                <li class="list2_it">Программирование</li>
+                <li class="list2_it">Вопросы теории</li>
+                <li class="list2_it">Надёжность и качество</li>
+                <li class="list2_it">События</li>
+              </ul>
+              <a href="javascript:;" class="button oupen_all"></a>
+            </aside>
+            <div class="clear"></div>
+          </div>
         </div>
       </div>
     </section>
@@ -302,7 +313,10 @@
         });
        });
       $(function() {
-
+        $('.oupen_all').live('click',function(){
+          $('.all_section1').slideToggle();
+          $(this).toggleClass('active');
+        });
         $('.list3_it').hover(function(){
           $(this).addClass('flip');
         },function(){
@@ -312,6 +326,7 @@
           var modal = $(this).data("popap");
           $(modal).arcticmodal();
         });
+
       });
    </script>
 </body>
