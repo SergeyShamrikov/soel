@@ -60,7 +60,7 @@
               <td class="td_img">
                 <img src="images/img_electronics.jpg">
               </td>
-              <td class="table_text_blue" colspan="2">
+              <td class="table_text_blue basket_title" colspan="2">
                 Подписка на журнал<br>
                 "Современная электроника" 2014 г.
               </td>
@@ -79,7 +79,7 @@
               <td class="td_img">
                 <img src="images/img_electronics.jpg">
               </td>
-              <td class="table_text_blue" colspan="2">
+              <td class="table_text_blue basket_title" colspan="2">
                 Подписка на журнал<br>
                 "Современная электроника" 2014 г.
               </td>
@@ -89,7 +89,7 @@
               <td class="td_img">
                 <img src="images/img_electronics2.jpg">
               </td>
-              <td class="table_text_blue" colspan="2">
+              <td class="table_text_blue basket_title" colspan="2">
                 Подписка на журнал<br>
                 "Современная электроника" 2014 г.
               </td>
@@ -99,7 +99,7 @@
               <td class="td_img">
                 <img src="images/img_electronics3.jpg">
               </td>
-              <td class="table_text_blue" colspan="2">
+              <td class="table_text_blue basket_title" colspan="2">
                 Подписка на журнал<br>
                 "Современная электроника" 2014 г.
               </td>
@@ -118,7 +118,7 @@
               <td class="td_img">
                 <img src="images/img_electronics2.jpg">
               </td>
-              <td class="table_text_blue" colspan="2">
+              <td class="table_text_blue basket_title" colspan="2">
                 Подписка на журнал<br>
                 "Современная электроника" 2014 г.
               </td>
@@ -137,7 +137,7 @@
               <td class="td_img">
                 <img src="images/img_electronics.jpg">
               </td>
-              <td class="table_text_blue" colspan="2">
+              <td class="table_text_blue basket_title" colspan="2">
                 Подписка на журнал<br>
                 "Современная электроника" 2014 г.
               </td>
@@ -147,7 +147,7 @@
               <td class="td_img">
                 <img src="images/img_electronics2.jpg">
               </td>
-              <td class="table_text_blue" colspan="2">
+              <td class="table_text_blue basket_title" colspan="2">
                 Подписка на журнал<br>
                 "Современная электроника" 2014 г.
               </td>
@@ -157,7 +157,7 @@
               <td class="td_img">
                 <img src="images/img_electronics3.jpg">
               </td>
-              <td class="table_text_blue" colspan="2">
+              <td class="table_text_blue basket_title" colspan="2">
                 Подписка на журнал<br>
                 "Современная электроника" 2014 г.
               </td>
@@ -207,6 +207,12 @@
     </section>
 <!--==============================footer=================================-->
     <?php include("main_blocks/footer.php") ?>
-
+<script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
+<script type="text/javascript">
+  
+  $(window).load(function() {
+    $('select').styler();
+   });
+</script>
 </body>
 </html>

@@ -306,6 +306,7 @@
    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
    <script type="text/javascript" src="js/jquery.arcticmodal-0.3.min.js"></script>
+   <script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
    <script type="text/javascript">
       $(window).load(function() {
         $('.flexslider').flexslider({
@@ -326,7 +327,7 @@
           var modal = $(this).data("popap");
           $(modal).arcticmodal();
         });
-
+        $('select').styler();
       });
    </script>
 </body>

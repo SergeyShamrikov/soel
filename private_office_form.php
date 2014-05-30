@@ -393,6 +393,7 @@
 
 <!--==============================footer=================================-->
     <?php include("main_blocks/footer.php") ?>
+    <script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
     <script type="text/javascript">
       $(window).load(function() {
         	$('.change_btn').click(function(){
@@ -410,6 +411,7 @@
           $('.printed_magazine').slideToggle();
         });
         $( "#tabs" ).tabs();
+        $('select').styler();
       });
    </script>
 </body>

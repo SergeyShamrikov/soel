@@ -3,6 +3,7 @@
 @import "../css/flexslider.css";
 @import "../css/jquery.arcticmodal-0.3.css";
 @import "../css/jquery-ui-1.10.4.custom.css";
+@import "../css/jquery.formstyler.css";
 @import "../font/font.css";
 @import url(http://fonts.googleapis.com/css?family=Roboto:300&subset=latin,cyrillic);
 article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
@@ -992,8 +993,7 @@ ul.gallery1{
   padding-left: 5px;
 }
 .my_orders .table_text_blue{
-  color: #0073b2;
-  font-size: 16px;
+  font-weight: 600;
   padding-left: 40px;
 }
 .my_orders .table_data{
@@ -1213,6 +1213,7 @@ ul.gallery1{
   background: linear-gradient(to bottom,  #f9f9f9 0%,#ffffff 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
+.jq-selectbox.modal_inp{padding: 0;}
 .modal_btn{
   width: 100%;
   display: block;
@@ -1291,7 +1292,7 @@ input[type="radio"]:checked +label{
 
 
 /**/
-.modal select{
+.modal .jq-selectbox{
   width: 160px;
   margin-left: 20px;
   position: relative;
@@ -1607,7 +1608,7 @@ width: 670px;
       }
       .basket_plus{background-position: -46px 3px;float: right;margin-right: 30px;}
       .basket_minus{background-position: 3px 2px;float: left;margin-left: 30px;}
-      .basket_delete{background-position: -88px 2px;margin: 0 auto;}
+      .basket_delete{background-position: -87px 3px;margin: 0 auto;}
 
       .basket_plus:hover{
         background-position: -46px -22px;

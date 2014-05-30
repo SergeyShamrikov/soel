@@ -379,13 +379,10 @@
    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
    <script type="text/javascript" src="js/jquery.arcticmodal-0.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
    <script type="text/javascript">
-      $(window).load(function() {
-        $('.flexslider').flexslider({
-          animation: "slide"
-        });
-       });
+      
       $(function() {
 
         $('.list3_it').hover(function(){
@@ -401,6 +398,7 @@
           $('.printed_magazine').slideToggle();
         });
         $( "#tabs" ).tabs();
+        $('select').styler();
       });
    </script>
 </body>
