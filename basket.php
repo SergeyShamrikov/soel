@@ -32,96 +32,104 @@
     <div class="main">
     	<section class="basket_box">
     		<h2 class="title5">Корзина</h2>
-    		<table class="basket_tamle">
-    			<tr>
-    				<th class="basket_coll_1" colspan="2">Товары</th>
-                    <th class="basket_coll_3">Цена</th>
-                    <th class="basket_coll_4">Количество</th>
-                    <th class="basket_coll_5">Скидка</th>
-                    <th class="basket_coll_6">X</th>
-    			</tr>
-                <tr>
-                    <td class="basket_coll_1">
-                        <img src="images/img_electronics.jpg" alt="">
-                    </td>
-                    <td class="basket_coll_2">
-                        <h6 class="basket_title">Подписка на журнал «Современная электроника» 2013 г.</h6>
-                    </td>
-                    <td class="basket_coll_3">
-                        <span class="basket_price">3500 р.</span>
-                    </td>
-                    <td class="basket_coll_4">
-                        <button class="basket_minus"></button>
-                        <input class="basket_qt" value="1">
-                        <button class="basket_plus"></button>
-                    </td>
-                    <td class="basket_coll_5">
-                        <span class="discount">5%</span>
-                    </td>
-                    <td class="basket_coll_6">
-                        <button class="basket_delete"></button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="basket_coll_1">
-                        <img src="images/img_electronics2.jpg" alt="">
-                    </td>
-                    <td class="basket_coll_2">
-                        <h6 class="basket_title">Подписка на журнал «Современная электроника» 2013 г.</h6>
-                    </td>
-                    <td class="basket_coll_3">
-                        <span class="basket_price">3500 р.</span>
-                    </td>
-                    <td class="basket_coll_4">
-                        <button class="basket_minus"></button>
-                        <input class="basket_qt" value="1">
-                        <button class="basket_plus"></button>
-                    </td>
-                    <td class="basket_coll_5">
-                        <span class="discount">5%</span>
-                    </td>
-                    <td class="basket_coll_6">
-                        <button class="basket_delete"></button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="basket_coll_1">
-                        <img src="images/img_electronics3.jpg" alt="">
-                    </td>
-                    <td class="basket_coll_2">
-                        <h6 class="basket_title">Подписка на журнал «Современная электроника» 2013 г.</h6>
-                    </td>
-                    <td class="basket_coll_3">
-                        <span class="basket_price">3500 р.</span>
-                    </td>
-                    <td class="basket_coll_4">
-                        <button class="basket_minus"></button>
-                        <input class="basket_qt" value="1">
-                        <button class="basket_plus"></button>
-                    </td>
-                    <td class="basket_coll_5">
-                        <span class="discount">5%</span>
-                    </td>
-                    <td class="basket_coll_6">
-                        <button class="basket_delete"></button>
-                    </td>
-                </tr>
-    		</table>
-            <div class="clearfix">
-                <div class="coll1 f_left">
-                   <label for="">Введите код купона на скидку:</label>
-                   <input type="text" class="modal_inp w100"> 
+
+    		<form action="">
+                <table class="basket_tamle">
+                    <tr>
+                        <th class="basket_coll_1" colspan="2">Товары</th>
+                        <th class="basket_coll_3">Цена</th>
+                        <th class="basket_coll_4">Количество</th>
+                        <th class="basket_coll_5">Скидка</th>
+                        <th class="basket_coll_6">X</th>
+                    </tr>
+                    <tr>
+                        <td class="basket_coll_1">
+                            <img src="images/img_electronics.jpg" alt="">
+                        </td>
+                        <td class="basket_coll_2">
+                            <h6 class="basket_title">Подписка на журнал «Современная электроника» 2013 г.</h6>
+                        </td>
+                        <td class="basket_coll_3">
+                            <span class="basket_price">3500 р.</span>
+                        </td>
+                        <td class="basket_coll_4">
+                            <button class="basket_minus"></button>
+                            <input class="basket_qt" value="1">
+                            <button class="basket_plus"></button>
+                        </td>
+                        <td class="basket_coll_5">
+                            <span class="discount">5%</span>
+                        </td>
+                        <td class="basket_coll_6">
+                            <button class="basket_delete"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="basket_coll_1">
+                            <img src="images/img_electronics2.jpg" alt="">
+                        </td>
+                        <td class="basket_coll_2">
+                            <h6 class="basket_title">Подписка на журнал «Современная электроника» 2013 г.</h6>
+                        </td>
+                        <td class="basket_coll_3">
+                            <span class="basket_price">3500 р.</span>
+                        </td>
+                        <td class="basket_coll_4">
+                            <button class="basket_minus"></button>
+                            <input class="basket_qt" value="1">
+                            <button class="basket_plus"></button>
+                        </td>
+                        <td class="basket_coll_5">
+                            <span class="discount">5%</span>
+                        </td>
+                        <td class="basket_coll_6">
+                            <button class="basket_delete"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="basket_coll_1">
+                            <img src="images/img_electronics3.jpg" alt="">
+                        </td>
+                        <td class="basket_coll_2">
+                            <h6 class="basket_title">Подписка на журнал «Современная электроника» 2013 г.</h6>
+                        </td>
+                        <td class="basket_coll_3">
+                            <span class="basket_price">3500 р.</span>
+                        </td>
+                        <td class="basket_coll_4">
+                            <button class="basket_minus"></button>
+                            <input class="basket_qt" value="1">
+                            <button class="basket_plus"></button>
+                        </td>
+                        <td class="basket_coll_5">
+                            <span class="discount">5%</span>
+                        </td>
+                        <td class="basket_coll_6">
+                            <button class="basket_delete"></button>
+                        </td>
+                    </tr>
+                </table>
+                <div class="clearfix">
+                    <div class="coll1 f_left">
+                       <label for="">Введите код купона на скидку:</label>
+                       <input type="text" class="modal_inp w100"> 
+                    </div>
+                    <div class="coll2 f_right">
+                        <span class="bask_amount clearfix d_block">Товаров на:<span class="f_right">4000 р.</span></span>
+                        <span class="bask_amount bask_vat clearfix d_block">В том числе НДС:<span class="f_right">0 р.</span></span>
+                        <span class="bask_amount color_blue clearfix d_block">Итого:<span class="f_right">4000 р.</span></span>
+                    </div>
                 </div>
-                <div class="coll2 f_right">
-                    
+                <hr class="bd1">
+                <div class="clearfix">
+                    <div class="coll1 f_left">
+                        <button class="recalculate">Пересчитать</button>
+                    </div>
+                    <div class="coll2 f_right">
+                        <button class="modal_btn">Оформить заказ</button>
+                    </div>
                 </div>
-            </div>
-            <hr class="bd1">
-            <div class="clearfix">
-                
-                <div class="coll1 f_left"></div>
-                <div class="coll2 f_right"></div>
-            </div>
+            </form>
     	</section>
     </div>
 
