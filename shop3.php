@@ -170,9 +170,7 @@
       			<a href="#" class="show_more"></a>
       		</div>
       		<div class="box1">
-      			<h3 class="title3">Информация о ценах
-      				<a href="#" class="f_right button1">Цены на издание</a>
-      			</h3>
+      			<h3 class="title3">Информация о ценах</h3>
       			<table class="info_prices">
       				<tr>
       					<th class="info_prices_cell1"></th>

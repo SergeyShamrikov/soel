@@ -1437,7 +1437,7 @@ width: 670px;
  input[type="checkbox"]:checked+label{
   background-image: url(../images/checkbox_select.png);
  }
- #subscription .tel_number{width: 183px;}
+ #subscription .tel_number,.questionnaire_it .tel_number{width: 183px;}
  .form_bot_bord{
   border: none;
   border-bottom: 1px solid #b4b4b4;
@@ -1506,27 +1506,30 @@ width: 670px;
   color: #000;
   background: url(../images/questionnaire_text_bg.png) 0 center no-repeat;
 }
+.personal_data_check{
+  background:  url(../images/personal_data_check.png) 0 center no-repeat;
+}
 
 .my_orders_nav_prev,.my_orders_nav_next{
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   border: 2px solid #e6e6e6;
 }
 .my_orders_nav_prev{
-  background: url(../images/flex_prev.png) center -19px no-repeat;
+  background: url(../images/flex_prev.png) 4px -18px no-repeat;
 }
 .my_orders_nav_next{
-  background: url(../images/flex_next.png) center -19px no-repeat;
+  background: url(../images/flex_next.png) 5px -18px no-repeat;
 }
 .my_orders_nav_prev:hover{
-  background-position: center 2px;
+  background-position: 4px 2px;
 }
 .my_orders_nav_next:hover{
-  background-position: center 2px;
+  background-position: 5px 2px;
 }
 .my_orders_nav_it{
   padding:0 10px;

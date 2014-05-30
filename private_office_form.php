@@ -384,7 +384,7 @@
                 <label for="radio2">Нет</label>
         		</form>
         		<div class="personal_data">
-        			<p class="questionnaire_text">Да</p>
+        			<p class="questionnaire_text personal_data_check">Да</p>
         		</div>
         	</div>
         </div> 
@@ -398,7 +398,9 @@
       $(window).load(function() {
         	$('.change_btn').click(function(){
         		$(this).parents('.questionnaire_it').toggleClass('active'),
-        		$(this).parents('.questionnaire_it').find('.questionnaire_form').slideToggle();
+        		$(this).parents('.questionnaire_it').find('.questionnaire_form').slideToggle(function(){
+        			$('select').styler();
+        		});
         		$(this).parents('.questionnaire_it').find('.personal_data').slideToggle();
         	})
        });
@@ -409,9 +411,10 @@
         });
         $('.checkbox-2').live('click',function(){
           $('.printed_magazine').slideToggle();
+
         });
         $( "#tabs" ).tabs();
-        $('select').styler();
+        
       });
    </script>
 </body>
