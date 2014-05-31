@@ -1194,6 +1194,8 @@ ul.gallery1{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 222px;
+
+  filter: alpha(opacity=none);
   height: 32px;
   border: 1px solid #b4b4b4;
   -webkit-box-shadow: inset 1px 0 2px #dedede;
@@ -1211,7 +1213,6 @@ ul.gallery1{
   background: -o-linear-gradient(top,  #f9f9f9 0%,#ffffff 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  #f9f9f9 0%,#ffffff 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #f9f9f9 0%,#ffffff 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 .jq-selectbox.modal_inp{padding: 0;}
 .modal_btn{
@@ -1518,12 +1519,13 @@ width: 670px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   border: 2px solid #e6e6e6;
+  margin-top: -2px;
 }
 .my_orders_nav_prev{
   background: url(../images/flex_prev.png) 4px -18px no-repeat;
 }
 .my_orders_nav_next{
-  background: url(../images/flex_next.png) 5px -18px no-repeat;
+  background: url(../images/flex_next.png) 6px -17px no-repeat;
 }
 .my_orders_nav_prev:hover{
   background-position: 4px 2px;

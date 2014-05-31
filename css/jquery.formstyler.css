@@ -121,6 +121,7 @@
 }
 .jq-selectbox__select {
 	padding: 5px 0 5px 20px; 
+	z-index: 2;
 }
 
 .jq-selectbox__select:active {
@@ -147,6 +148,7 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+	z-index: 0;
 	width: 34px;
 	height: 100%;
 	border-left: 1px solid #CCC;
@@ -170,6 +172,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	z-index: 9999;
 	border: 1px solid #CCC;
 	border-radius: 4px;
 	background: #FFF;
